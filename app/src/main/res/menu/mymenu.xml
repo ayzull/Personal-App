@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    
+    >
+    <item
+        android:id="@+id/mnu_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/mnu_aboutme"
+        android:title="About Me"
+        />
+
+    <item
+        android:id="@+id/mnu_hobbies"
+        android:title="Hobbies"
+        />
+
+    <item
+        android:id="@+id/mnu_skills"
+        android:title="Skills"
+        />
+
+    <item
+        android:id="@+id/mnu_timetable"
+        android:title="Time Table"
+        />
+
+    <item
+        android:title="Links">
+        <menu>
+            <item
+                android:id="@+id/mnu_uitm"
+                android:title="UiTM"
+                />
+
+            <item
+                android:id="@+id/mnu_istudent"
+                android:title="iStudent Portal"
+                />
+        </menu>
+    </item>
+
+</menu>
